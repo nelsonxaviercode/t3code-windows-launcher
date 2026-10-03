@@ -1,0 +1,8 @@
+runtime/*
+!runtime/.gitkeep
+__pycache__/
+*.py[cod]
+*.log
+*.log.old
+.DS_Store
+Thumbs.db
