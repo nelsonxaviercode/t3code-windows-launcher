@@ -4,5 +4,6 @@ __pycache__/
 *.py[cod]
 *.log
 *.log.old
+*.lnk
 .DS_Store
 Thumbs.db

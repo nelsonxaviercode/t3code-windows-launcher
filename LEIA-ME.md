@@ -22,6 +22,7 @@ Este launcher fecha esse intervalo. O servidor fica em segundo plano e a interfa
 |---|---|
 | `launch_t3.py` | Inicia o servidor, lê a saída e abre o endereço correcto. |
 | `install.ps1` | Cria os atalhos e inicia o servidor em segundo plano. |
+| `T3 Code.lnk` | Abre a interface através de duplo clique na pasta do launcher. |
 | `runtime\t3.exe` | Executável oficial do T3 Code, fornecido separadamente. |
 | `assets\pingdotgg-official.ico` | Ícone usado pelos atalhos do Windows. |
 | `t3-launcher.log` | Diagnóstico local com tokens removidos. |
@@ -58,6 +59,9 @@ Depois consulte `t3-launcher.log`.
 
 Se o ícone antigo continuar na barra de tarefas, remova o atalho fixado.
 Depois procure **T3 Code** no menu Iniciar e fixe novamente o atalho.
+
+O instalador usa novos endereços para o favicon e para os ícones do manifesto.
+Esta alteração impede o Chrome de reutilizar o favicon nightly guardado.
 
 Se a porta 3773 estiver ocupada, termine o outro processo ou altere a configuração do T3 Code.
 

@@ -13,12 +13,18 @@ O launcher mantém a consola escondida, abre a interface no Google Chrome e usa 
 5. Execute `install.ps1` no PowerShell.
 
 O instalador cria atalhos no Ambiente de Trabalho, menu Iniciar e arranque automático do Windows.
+O instalador também cria `T3 Code.lnk` dentro da pasta do launcher.
 
 ## Utilização
 
 Clique no atalho **T3 Code**. O servidor inicia sem consola visível e a interface abre em `http://localhost:3773`.
 
+Também pode fazer duplo clique em `T3 Code.lnk` dentro da pasta deste projecto.
+
 O diagnóstico fica em `t3-launcher.log`. O launcher remove os tokens de emparelhamento antes de escrever o registo.
+
+O instalador substitui apenas as referências visuais usadas pela interface local.
+Os ficheiros originais ficam em `runtime\client\.t3-launcher-original-icons`.
 
 ## Publicação segura
 
